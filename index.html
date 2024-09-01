@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadi Nirakshak</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#report">Report Incident</a></li>
+                <li><a href="#hotspots">Hotspots</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="mapSection">
+        <h1>Real-Time Monitoring of Water Bodies in Delhi</h1>
+        <div id="map"></div>
+    </section>
+
+    <section id="userReports">
+        <h2>Recent Pollution Incidents</h2>
+        <div id="reportsList">
+            <!-- User-reported data will be populated here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nadi Nirakshak</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
